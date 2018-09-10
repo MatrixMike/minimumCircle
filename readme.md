@@ -1,3 +1,3 @@
-ghc  circ.hs
-ghc circ2.hs
-
+<br>ghc  circ.hs
+<br>ghc circ2.hs
+<br>
