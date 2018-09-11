@@ -11,8 +11,8 @@ makeCircle' (x1, y1) (x2, y2) = ((x, y), r)
     y = (y1 + y2) / 2
     r = sqrt ((x - x1) ^ 2 + (y - y1) ^ 2)
 
-makeCircle :: Point -> Point -> Point -> Circle
-makeCircle (x1, y1) (x2, y2) (x3, y3) = ((x, y), r2)
+makeCircle :: Point  -> Point  -> Point -> Circle
+makeCircle   (x1, y1)  (x2, y2)  (x3, y3)  = ((x, y), r2)
   where
     k = 2 * (x1 * (y2 - y3) - y1 * (x2 - x3) + x2 * y3 - x3 * y2)
     x =

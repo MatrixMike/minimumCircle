@@ -1,0 +1,26 @@
+circ.hs
+thought of reusing the functions
+line 82 : toPoint takes String and returns a Point
+
+
+makeCircle : used by allCircles
+
+
+learn about: Nothing, Just, Maybe
+adding prime to name , xxx xxx'
+
+in geany : find in files works on all files in folder
+====
+if source code says 
+
+import Data.List.Split
+what is the name of the support library that we need to install? (with cabal install xxx)?
+cabal install Split  execs OK but is it what we want?
+It compiles OK in geany -> 
+user error   new2: user error (Pattern match failure in do expression at new2.hs:100:3-8)
+ means we want a filename as an argument
+
+
+ http://gitcommit.co.uk/2017/07/08/ever-decreasing-circles/
+
+
